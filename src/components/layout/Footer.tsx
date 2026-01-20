@@ -176,8 +176,7 @@ export const Footer = () => {
             © {new Date().getFullYear()} Manuel Galindo. Todos los derechos reservados.
           </p>
           <p className="text-sm text-coffee-500 dark:text-cream-400">
-            Hecho con{" "}
-            <span className="text-salmon-500">♥</span> usando Next.js & Tailwind CSS
+             usando Next.js, React & Tailwind CSS
           </p>
         </div>
       </div>
