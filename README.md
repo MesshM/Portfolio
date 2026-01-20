@@ -1,36 +1,132 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌐 Manuel's Portfolio
 
-## Getting Started
+A modern, interactive portfolio website built with Next.js 16, featuring stunning liquid glass effects, smooth scroll-triggered animations, and a warm cream-to-salmon color palette.
 
-First, run the development server:
+![Next.js](https://img.shields.io/badge/Next.js-16.1.2-black?style=flat-square&logo=next.js)
+![React](https://img.shields.io/badge/React-19.2.3-61DAFB?style=flat-square&logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-4-38B2AC?style=flat-square&logo=tailwind-css)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-12-FF0055?style=flat-square&logo=framer)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## ✨ Features
+
+- **🔮 Liquid Glass Effects** - Glassmorphism cards with backdrop blur and subtle animations
+- **🌊 Wavy Background** - Dynamic animated wavy patterns using simplex noise
+- **📜 Scroll Animations** - Bidirectional scroll-triggered animations with Framer Motion
+- **🎭 Linear Modal** - Smooth shared element transitions for project details
+- **🎨 Custom UI Components** - Marquee, randomized text effects, and more
+- **🌙 Theme Support** - Light/dark mode with next-themes
+- **📱 Fully Responsive** - Optimized for all device sizes
+
+## 🛠️ Tech Stack
+
+| Category | Technologies |
+|----------|-------------|
+| **Framework** | Next.js 16 (App Router, Turbopack) |
+| **Language** | TypeScript |
+| **Styling** | Tailwind CSS v4 |
+| **Animations** | Framer Motion |
+| **UI Utilities** | clsx, tailwind-merge, class-variance-authority |
+| **Icons** | Lucide React |
+
+## 📂 Project Structure
+
+```
+src/
+├── app/                    # Next.js App Router
+├── components/
+│   ├── icons/             # Custom icon components
+│   ├── layout/            # Layout components (Navbar, Footer)
+│   ├── providers/         # Context providers (Theme)
+│   ├── sections/          # Page sections
+│   │   ├── HeroSection.tsx
+│   │   ├── ExperienceSection.tsx
+│   │   ├── TechnologiesSection.tsx
+│   │   ├── ProjectsSection.tsx
+│   │   └── EducationSection.tsx
+│   └── ui/                # Reusable UI components
+│       ├── LiquidGlassCard.tsx
+│       ├── LinearModal.tsx
+│       ├── WavyBackground.tsx
+│       ├── Marquee.tsx
+│       ├── RandomizedTextEffect.tsx
+│       └── ThemeToggle.tsx
+└── lib/                   # Utility functions
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Getting Started
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Prerequisites
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Node.js 18+ 
+- npm, yarn, or pnpm
 
-## Learn More
+### Installation
 
-To learn more about Next.js, take a look at the following resources:
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/MesshM/Portfolio.git
+   cd Portfolio
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. **Run the development server**
+   ```bash
+   npm run dev
+   ```
 
-## Deploy on Vercel
+4. **Open in browser**
+   Navigate to [http://localhost:3000](http://localhost:3000)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📜 Available Scripts
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Start development server with Turbopack |
+| `npm run build` | Build for production |
+| `npm run start` | Start production server |
+| `npm run lint` | Run ESLint |
+
+## 🎨 Color Palette
+
+The portfolio uses a warm, modern color scheme:
+
+| Color | Hex | Usage |
+|-------|-----|-------|
+| Cream | `#fffcf2` | Background, light elements |
+| Salmon | `#f4a261` | Accents, highlights |
+| Coffee | `#5c4033` | Text, dark elements |
+
+## 🔧 Key Components
+
+### LiquidGlassCard
+A glassmorphism card component with backdrop blur, subtle borders, and hover effects.
+
+### WavyBackground
+Animated wavy patterns created with simplex noise, adding visual depth to sections.
+
+### LinearModal
+A modal component with shared element transitions for smooth project detail views.
+
+### Marquee
+An infinite scrolling component for displaying technologies and skills.
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🔗 Links
+
+- **Live Demo**: [Coming Soon]
+- **GitHub**: [https://github.com/MesshM/Portfolio](https://github.com/MesshM/Portfolio)
+- **LinkedIn**: [https://linkedin.com/in/messhm](https://linkedin.com/in/manuel-meza-h)
+
+---
+
+<p align="center">
+  Built with ❤️ by <a href="https://github.com/MesshM">Manuel</a>
+</p>
