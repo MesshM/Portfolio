@@ -64,6 +64,7 @@ export const HeroSection = () => {
                       height={240}
                       className="w-full h-full object-cover"
                       priority
+                      unoptimized
                     />
                   </div>
                 </div>
