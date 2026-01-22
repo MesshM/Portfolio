@@ -162,7 +162,7 @@ export const Footer = () => {
               ))}
             </div>
             <a
-              href="mailto:contacto@ejemplo.com"
+              href="mailto:manuel.agn2005@gmail.com"
               className="inline-flex items-center justify-center px-6 py-3 text-sm font-semibold text-white bg-salmon-500 hover:bg-salmon-600 dark:bg-salmon-500 dark:hover:bg-salmon-400 rounded-full transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-salmon-500/25"
             >
               Enviar mensaje

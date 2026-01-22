@@ -62,12 +62,16 @@ export const Navbar = () => {
         <div className="flex items-center gap-4">
           <ThemeToggle />
 
-          {/* Contact button - desktop */}
+          {/* CV download button - desktop */}
           <a
-            href="#contacto"
+            href="/cv/CV_Manuel_Galindo.pdf"
+            download
             className="hidden md:inline-flex items-center justify-center px-5 py-2.5 text-sm font-semibold text-white bg-salmon-500 hover:bg-salmon-600 dark:bg-salmon-500 dark:hover:bg-salmon-400 rounded-full transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-salmon-500/25"
           >
-            Contacto
+            <svg className="w-4 h-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+            </svg>
+            Curriculum
           </a>
 
           {/* Mobile menu button */}
@@ -123,11 +127,15 @@ export const Navbar = () => {
             </a>
           ))}
           <a
-            href="#contacto"
+            href="/cv/CV_Manuel_Galindo.pdf"
+            download
             onClick={() => setIsMobileMenuOpen(false)}
-            className="block w-full text-center px-5 py-3 text-sm font-semibold text-white bg-salmon-500 hover:bg-salmon-600 rounded-full transition-colors"
+            className="flex items-center justify-center w-full px-5 py-3 text-sm font-semibold text-white bg-salmon-500 hover:bg-salmon-600 rounded-full transition-colors"
           >
-            Contacto
+            <svg className="w-4 h-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+            </svg>
+            Curriculum
           </a>
         </div>
       </div>
