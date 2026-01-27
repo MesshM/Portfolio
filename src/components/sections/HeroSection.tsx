@@ -180,7 +180,7 @@ export const HeroSection = () => {
                   Contactar
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/manuel-alejandro-galindo-nivia"
+                  href="https://www.linkedin.com/in/manuel-alejandro-galindo-nivia-3157b03a2"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center px-8 py-3 text-base font-semibold text-white bg-[#0077B5] hover:bg-[#006097] rounded-full transition-all duration-200 hover:-translate-y-1 hover:shadow-lg hover:shadow-[#0077B5]/25"
